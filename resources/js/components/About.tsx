@@ -10,20 +10,6 @@ export default function About() {
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1400&q=80"
               alt="Komunitas Kaspa Space"
             />
-            <div className="about-stats">
-              <div>
-                <div className="about-stat-num">500<em>+</em></div>
-                <div className="about-stat-label">Member Aktif</div>
-              </div>
-              <div>
-                <div className="about-stat-num">4.9<em>★</em></div>
-                <div className="about-stat-label">Rating Member</div>
-              </div>
-              <div>
-                <div className="about-stat-num">3<em>Thn</em></div>
-                <div className="about-stat-label">Pengalaman</div>
-              </div>
-            </div>
           </div>
 
           <div className="about-body">
@@ -45,10 +31,10 @@ export default function About() {
               tempat bertumbuh ribuan ide, brand, dan peluang — di satu ekosistem yang saling menguatkan.
             </p>
             <div className="about-actions">
-              <a className="btn btn-primary" href="#">
-                Pelajari Lebih Lanjut <Icon.Arrow />
-              </a>
-              <button className="play-btn">
+              <button 
+                className="play-btn"
+                onClick={() => window.open('https://youtu.be/IQxdKj7qRYo?si=FfCyZxMFjr27GOVA', '_blank')}
+              >
                 <span className="play-btn-icon"><Icon.Play /></span>
                 Tonton Video Profil
               </button>
