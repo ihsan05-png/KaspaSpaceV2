@@ -135,11 +135,6 @@ function CWSubHero() {
         <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2000&q=80" alt="Coworking space" />
       </div>
       <div className="container subhero-inner">
-        <div className="breadcrumb">
-          <Link to="/">Beranda</Link>
-          <span className="sep">/</span>
-          <span className="current">Coworking Space</span>
-        </div>
         <span className="chip chip-dot chip-uppercase">Ruangan tersedia di berbagai lokasi</span>
         <h1 className="subhero-title">Coworking <em>Space</em></h1>
         <p className="subhero-lede">
@@ -149,17 +144,6 @@ function CWSubHero() {
         <div className="hero-cta cw-subhero-cta">
           <a className="btn btn-primary" href="#rooms">Lihat Ruangan <Icon.Arrow /></a>
           <a className="btn btn-ghost" href="#schedule">Cek Jadwal</a>
-        </div>
-        <div className="subhero-stats">
-          <div className="subhero-stat">
-            <div className="subhero-stat-num">4.9<em>★</em></div>
-            <div className="subhero-stat-label">Rating</div>
-          </div>
-          <div className="subhero-stat-divider" />
-          <div className="subhero-stat">
-            <div className="subhero-stat-num">500<em>+</em></div>
-            <div className="subhero-stat-label">Member</div>
-          </div>
         </div>
       </div>
     </section>

@@ -133,10 +133,6 @@ function BSSubHero() {
             <div className="subhero-stat-label">Online</div>
           </div>
           <div className="subhero-stat-divider" />
-          <div className="subhero-stat">
-            <div className="subhero-stat-num">5.0<em>★</em></div>
-            <div className="subhero-stat-label">Rating</div>
-          </div>
         </div>
       </div>
     </section>
@@ -340,37 +336,7 @@ function BSCompare() {
 /* ============================================
    FEATURED TESTIMONIAL
    ============================================ */
-function BSFeatureTesti() {
-  return (
-    <section className="bs-testi">
-      <div className="container">
-        <div className="bs-testi-card">
-          <div className="bs-testi-media">
-            <div className="ph">
-              <div className="ph-big">"Sukses selalu"</div>
-              <div className="ph-mono">Photo · Penandatanganan dokumen</div>
-            </div>
-          </div>
-          <div className="bs-testi-body">
-            <div className="stars">
-              {[0, 1, 2, 3, 4].map(s => <Icon.Star key={s} />)}
-            </div>
-            <p className="quote">
-              Pelayanan legal pembuatan <em>CV yang cepat dan amanah</em>.
-              Tim Kaspa Space sangat profesional dari awal sampai dokumen
-              jadi. Sukses selalu!
-            </p>
-            <div>
-              <div className="avatar">P</div>
-              <div className="who">Pratyaksa Fendhy Artadi</div>
-              <div className="role">Owner · Klien Legalitas</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
+
 
 /* ============================================
    FAQ
@@ -426,7 +392,6 @@ export default function BusinessServicePage() {
       <BSSubHero />
       <BSSearchAndGrid />
       <BSCompare />
-      <BSFeatureTesti />
       <BSFAQ />
       <Footer />
       <a className="wa-float" href={waLink()} target="_blank" rel="noopener noreferrer" aria-label="Chat WhatsApp">

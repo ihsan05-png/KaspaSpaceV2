@@ -146,7 +146,7 @@ function FnBHero() {
             </h1>
             <p className="fnb-hero-lede">
               Kafe internal Kaspa Space menyajikan aneka makanan, minuman segar, dan
-              camilan favorit — semua dengan diskon 20% untuk member aktif.
+              camilan favorit.
             </p>
             <div className="fnb-hero-btns">
               <a className="btn btn-fnb" href="#menu">Lihat Menu <Icon.Arrow /></a>
@@ -160,10 +160,6 @@ function FnBHero() {
               <div>
                 <div className="fnb-hero-stat-num">4.8<em>★</em></div>
                 <div className="fnb-hero-stat-label">Rating</div>
-              </div>
-              <div>
-                <div className="fnb-hero-stat-num">20<em>%</em></div>
-                <div className="fnb-hero-stat-label">Diskon Member</div>
               </div>
             </div>
           </div>
@@ -197,32 +193,6 @@ function FnBHero() {
 /* ============================================
    PROMO BANNER
    ============================================ */
-function FnBPromo() {
-  return (
-    <section className="fnb-promo">
-      <div className="container">
-        <div className="fnb-promo-card">
-          <div className="fnb-promo-badge">
-            20%
-            <small>OFF</small>
-          </div>
-          <div>
-            <h3 className="fnb-promo-title">
-              Diskon <em>Member</em> Setiap Hari
-            </h3>
-            <p className="fnb-promo-desc">
-              Tunjukkan kartu member di kasir, atau pesan via app untuk otomatis dapat diskon 20%
-              di semua menu makanan &amp; minuman.
-            </p>
-          </div>
-          <Link to="/kontak" className="btn btn-fnb">
-            Jadi Member <Icon.Arrow />
-          </Link>
-        </div>
-      </div>
-    </section>
-  );
-}
 
 /* ============================================
    MENU GRID  ← data from API
@@ -417,7 +387,6 @@ export default function FnBPage() {
     <div>
       <Navbar />
       <FnBHero />
-      <FnBPromo />
       <FnBMenu />
       <FnBInfo />
       <FnBHowTo />
